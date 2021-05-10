@@ -1,0 +1,54 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color:gray;
+}
+.ExpenseTracker{
+  text-align: center;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+.income{
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  box-shadow: #C38D93;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  
+}
+.transactions{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+form input{
+  width: 500px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+}
+.button{
+  background-color: green;
+  
+  
+}
+
+  
+.del{
+  
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+#income{
+  color: green;
+}
+#expense{
+  color: red;
+}
